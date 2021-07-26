@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+.navbar{
+    box-shadow: 0 5px 15px #eee;
+}
+.navbar .navbar-brand{
+  font-weight: bold;
+}
+.navbar ul{
+  position: absolute;
+  right: 0;
+}
+.navbar ul li{
+  transition: all 0.4s ease;
+}
+.navbar ul li:hover{
+  background-color: #000;
+  height: 75%;
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.navbar ul li a{
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.navbar ul li a:hover{
+  color: white;
+}
+#head{
+  font-size: 60px;
+  font-weight: bolder;
+}
+#btn{
+  padding: 10px 16px;
+  border-radius: 12px;
+  background-color: white;
+  border: 2px solid #EDEDED;
+  box-shadow: 0 8px 15px #E8F0F2;
+}
+#btn:hover{
+  background-color: black;
+  border: 2px solid #fff;
+  color: white;
+}
+#blogs{
+  margin-top: 60px;
+}
+#featured{
+  font-size: 50px;
+  font-weight: bold;
+}
+.blog_content{
+  height: 200px;
+  width: 600px;
+  background-size:cover;
+  margin-bottom: 200px;
+  border-radius: 12px;
+}
+.text_content{
+  background-color: white;
+  width: 100%;
+  top:50%;
+  position: relative;
+  box-shadow: 0 5px 10px #eee;
+  text-align: center;
+  border-radius: 20px;
+}
+.content{
+  font-family: "Noto Sans" , sans-serif;
+}
+#footer{
+  background-color: #F4F4F2;
+}
+.details{
+  justify-content: center;
+  display:flex;
+}
+@media (max-width:575px) {
+  .navbar ul{
+    position: relative;
+    right: 0;
+  }
+  #head{
+    font-size: 48px;
+  }
+  #featured{
+    font-size: 35px;
+  }
+  .blog_content{
+    height: 220px;
+    width: 300px;
+  }
+  .details{
+    display: block;
+  }
+}
