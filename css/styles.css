@@ -72,9 +72,8 @@ body{
   box-shadow: 0 5px 10px #eee;
   text-align: center;
   border-radius: 20px;
-}
-.content{
-  font-family: "Noto Sans" , sans-serif;
+  font-family: "Quicksand";
+  padding: 10px;
 }
 #footer{
   background-color: #F4F4F2;
